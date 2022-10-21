@@ -1,0 +1,30 @@
+{
+  "name": "schedular",
+  "version": "1.0.0",
+  "description": "This is about schedular",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ganeshnethula6/node-schedular.git"
+  },
+  "author": "Ganesh Nethula Email: ganeshnethula6@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ganeshnethula6/node-schedular/issues"
+  },
+  "homepage": "https://github.com/ganeshnethula6/node-schedular#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "fs-extra": "^10.1.0",
+    "lodash": "^4.17.21",
+    "node-schedule": "^2.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
